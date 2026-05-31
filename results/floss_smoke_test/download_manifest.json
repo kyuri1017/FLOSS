@@ -1,0 +1,24 @@
+{
+  "repo_id": "yasserben/floss-features",
+  "dataset": "cityscapes",
+  "num_images": 5,
+  "num_val_images": 5,
+  "files": [
+    "cityscapes_text_features.pt",
+    "vision_features_train/aachen_000000_000019_leftImg8bit.pt",
+    "vision_features_train/aachen_000001_000019_leftImg8bit.pt",
+    "vision_features_train/aachen_000002_000019_leftImg8bit.pt",
+    "vision_features_train/aachen_000003_000019_leftImg8bit.pt",
+    "vision_features_train/aachen_000004_000019_leftImg8bit.pt",
+    "vision_features_val/frankfurt_000000_000294_leftImg8bit.pt",
+    "vision_features_val/frankfurt_000000_000576_leftImg8bit.pt",
+    "vision_features_val/frankfurt_000000_001016_leftImg8bit.pt",
+    "vision_features_val/frankfurt_000000_001236_leftImg8bit.pt",
+    "vision_features_val/frankfurt_000000_001751_leftImg8bit.pt",
+    "gt_val/frankfurt_000000_000294_gtFine_labelTrainIds.png",
+    "gt_val/frankfurt_000000_000576_gtFine_labelTrainIds.png",
+    "gt_val/frankfurt_000000_001016_gtFine_labelTrainIds.png",
+    "gt_val/frankfurt_000000_001236_gtFine_labelTrainIds.png",
+    "gt_val/frankfurt_000000_001751_gtFine_labelTrainIds.png"
+  ]
+}

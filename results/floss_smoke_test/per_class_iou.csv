@@ -1,0 +1,20 @@
+class,baseline_iou,floss_iou,delta
+road,76.9593,54.2709,-22.6884
+sidewalk,16.2743,9.7071,-6.5672
+building,76.2488,81.4256,5.1768
+wall,0.0000,0.0000,0.0000
+fence,0.0000,0.0000,0.0000
+pole,0.0165,0.8290,0.8125
+traffic light,0.0000,6.4053,6.4053
+traffic sign,2.0139,3.2468,1.2328
+vegetation,71.6712,78.9960,7.3248
+terrain,0.0000,0.0000,0.0000
+sky,0.0000,58.8683,58.8683
+person,0.0000,1.2155,1.2155
+rider,0.0000,8.1355,8.1355
+car,69.0995,70.6790,1.5795
+truck,0.0000,0.0000,0.0000
+bus,nan,nan,nan
+train,nan,nan,nan
+motorcycle,nan,nan,nan
+bicycle,13.9928,0.0000,-13.9928

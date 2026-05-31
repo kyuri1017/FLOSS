@@ -1,0 +1,128 @@
+2026-05-31 11:36:21,414 INFO Writing log to results/floss_smoke_test/execution.log
+2026-05-31 11:36:21,414 INFO Dataset: cityscapes
+2026-05-31 11:36:21,414 INFO Train images: 5
+2026-05-31 11:36:21,414 INFO Validation images: 5
+2026-05-31 11:36:21,414 INFO Device: cpu
+2026-05-31 11:36:21,414 INFO Ranking resolution: (512, 256)
+2026-05-31 11:36:45,282 INFO Writing log to results/floss_smoke_test/execution.log
+2026-05-31 11:36:45,282 INFO Dataset: cityscapes
+2026-05-31 11:36:45,282 INFO Train images: 5
+2026-05-31 11:36:45,282 INFO Validation images: 5
+2026-05-31 11:36:45,283 INFO Device: cpu
+2026-05-31 11:36:45,283 INFO Ranking resolution: (512, 256)
+2026-05-31 11:36:45,889 INFO HTTP Request: GET https://huggingface.co/api/datasets/yasserben/floss-features/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-31 11:36:46,300 INFO HTTP Request: GET https://huggingface.co/api/datasets/yasserben/floss-features/tree/main?expand=false&recursive=true&limit=1000&cursor=ZXlKbWFXeGxYMjVoYldVaU9pSjJhWE5wYjI1ZlptVmhkSFZ5WlhOZmRISmhhVzR2WW5KbGJXVnVYekF3TURJeU0xOHdNREF3TVRsZmJHVm1kRWx0WnpoaWFYUXVjSFFpTENKMGNtVmxYMjlwWkNJNklqVXhNak00TVdJME1UQmxPRGRrT1RjeU0yVmtaamswWm1VNU16ZzROR013TmpVeE9UWTROV1FpZlE9PToxMDAw "HTTP/1.1 200 OK"
+2026-05-31 11:36:46,656 INFO HTTP Request: GET https://huggingface.co/api/datasets/yasserben/floss-features/tree/main?expand=false&recursive=true&limit=1000&cursor=ZXlKbWFXeGxYMjVoYldVaU9pSjJhWE5wYjI1ZlptVmhkSFZ5WlhOZmRISmhhVzR2YUdGdWIzWmxjbDh3TURBd01EQmZNREk1TkRVMVgyeGxablJKYldjNFltbDBMbkIwSWl3aWRISmxaVjl2YVdRaU9pSTFNVEl6T0RGaU5ERXdaVGczWkRrM01qTmxaR1k1TkdabE9UTTRPRFJqTURZMU1UazJPRFZrSW4wPToyMDAw "HTTP/1.1 200 OK"
+2026-05-31 11:36:47,031 INFO HTTP Request: GET https://huggingface.co/api/datasets/yasserben/floss-features/tree/main?expand=false&recursive=true&limit=1000&cursor=ZXlKbWFXeGxYMjVoYldVaU9pSjJhWE5wYjI1ZlptVmhkSFZ5WlhOZmRISmhhVzR2ZEhWaWFXNW5aVzVmTURBd01ESXdYekF3TURBeE9WOXNaV1owU1cxbk9HSnBkQzV3ZENJc0luUnlaV1ZmYjJsa0lqb2lOVEV5TXpneFlqUXhNR1U0TjJRNU56SXpaV1JtT1RSbVpUa3pPRGcwWXpBMk5URTVOamcxWkNKOTozMDAw "HTTP/1.1 200 OK"
+2026-05-31 11:36:47,211 INFO Download manifest written to results/floss_smoke_test/download_manifest.json
+2026-05-31 11:36:47,211 INFO Downloading or reusing cityscapes_text_features.pt
+2026-05-31 11:36:47,462 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/cityscapes_text_features.pt "HTTP/1.1 302 Found"
+2026-05-31 11:36:47,755 INFO HTTP Request: GET https://huggingface.co/api/datasets/yasserben/floss-features/xet-read-token/159b49c668a01d3a2ebe8274b773401d1760c4c4 "HTTP/1.1 200 OK"
+2026-05-31 11:36:51,406 INFO Downloading or reusing vision_features_train/aachen_000000_000019_leftImg8bit.pt
+2026-05-31 11:36:51,657 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/vision_features_train/aachen_000000_000019_leftImg8bit.pt "HTTP/1.1 302 Found"
+2026-05-31 11:36:51,658 WARNING Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-31 11:36:54,203 INFO Downloading or reusing vision_features_train/aachen_000001_000019_leftImg8bit.pt
+2026-05-31 11:36:54,438 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/vision_features_train/aachen_000001_000019_leftImg8bit.pt "HTTP/1.1 302 Found"
+2026-05-31 11:36:55,574 INFO Downloading or reusing vision_features_train/aachen_000002_000019_leftImg8bit.pt
+2026-05-31 11:36:55,840 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/vision_features_train/aachen_000002_000019_leftImg8bit.pt "HTTP/1.1 302 Found"
+2026-05-31 11:36:56,556 INFO Downloading or reusing vision_features_train/aachen_000003_000019_leftImg8bit.pt
+2026-05-31 11:36:56,794 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/vision_features_train/aachen_000003_000019_leftImg8bit.pt "HTTP/1.1 302 Found"
+2026-05-31 11:36:59,065 INFO Downloading or reusing vision_features_train/aachen_000004_000019_leftImg8bit.pt
+2026-05-31 11:36:59,303 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/vision_features_train/aachen_000004_000019_leftImg8bit.pt "HTTP/1.1 302 Found"
+2026-05-31 11:37:00,050 INFO Downloading or reusing vision_features_val/frankfurt_000000_000294_leftImg8bit.pt
+2026-05-31 11:37:00,298 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/vision_features_val/frankfurt_000000_000294_leftImg8bit.pt "HTTP/1.1 302 Found"
+2026-05-31 11:37:03,133 INFO Downloading or reusing vision_features_val/frankfurt_000000_000576_leftImg8bit.pt
+2026-05-31 11:37:03,381 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/vision_features_val/frankfurt_000000_000576_leftImg8bit.pt "HTTP/1.1 302 Found"
+2026-05-31 11:37:05,990 INFO Downloading or reusing vision_features_val/frankfurt_000000_001016_leftImg8bit.pt
+2026-05-31 11:37:06,231 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/vision_features_val/frankfurt_000000_001016_leftImg8bit.pt "HTTP/1.1 302 Found"
+2026-05-31 11:37:08,931 INFO Downloading or reusing vision_features_val/frankfurt_000000_001236_leftImg8bit.pt
+2026-05-31 11:37:09,176 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/vision_features_val/frankfurt_000000_001236_leftImg8bit.pt "HTTP/1.1 302 Found"
+2026-05-31 11:37:10,335 INFO Downloading or reusing vision_features_val/frankfurt_000000_001751_leftImg8bit.pt
+2026-05-31 11:37:10,589 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/vision_features_val/frankfurt_000000_001751_leftImg8bit.pt "HTTP/1.1 302 Found"
+2026-05-31 11:37:13,291 INFO Downloading or reusing gt_val/frankfurt_000000_000294_gtFine_labelTrainIds.png
+2026-05-31 11:37:13,538 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/gt_val/frankfurt_000000_000294_gtFine_labelTrainIds.png "HTTP/1.1 302 Found"
+2026-05-31 11:37:14,541 INFO Downloading or reusing gt_val/frankfurt_000000_000576_gtFine_labelTrainIds.png
+2026-05-31 11:37:14,785 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/gt_val/frankfurt_000000_000576_gtFine_labelTrainIds.png "HTTP/1.1 302 Found"
+2026-05-31 11:37:16,927 INFO Downloading or reusing gt_val/frankfurt_000000_001016_gtFine_labelTrainIds.png
+2026-05-31 11:37:17,227 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/gt_val/frankfurt_000000_001016_gtFine_labelTrainIds.png "HTTP/1.1 302 Found"
+2026-05-31 11:37:18,451 INFO Downloading or reusing gt_val/frankfurt_000000_001236_gtFine_labelTrainIds.png
+2026-05-31 11:37:18,693 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/gt_val/frankfurt_000000_001236_gtFine_labelTrainIds.png "HTTP/1.1 302 Found"
+2026-05-31 11:37:20,676 INFO Downloading or reusing gt_val/frankfurt_000000_001751_gtFine_labelTrainIds.png
+2026-05-31 11:37:20,969 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/gt_val/frankfurt_000000_001751_gtFine_labelTrainIds.png "HTTP/1.1 302 Found"
+2026-05-31 11:37:23,552 INFO Ranking train feature 1/5
+2026-05-31 11:37:28,135 INFO Ranking train feature 2/5
+2026-05-31 11:37:32,290 INFO Ranking train feature 3/5
+2026-05-31 11:37:36,425 INFO Ranking train feature 4/5
+2026-05-31 11:37:40,593 INFO Ranking train feature 5/5
+2026-05-31 11:37:44,737 INFO Smoke rankings written to results/floss_smoke_test/rankings_smoke.json
+2026-05-31 11:37:44,744 INFO Evaluating validation feature 1/5
+2026-05-31 11:37:44,780 INFO Evaluating validation feature 2/5
+2026-05-31 11:37:44,800 INFO Evaluating validation feature 3/5
+2026-05-31 11:37:44,821 INFO Evaluating validation feature 4/5
+2026-05-31 11:37:44,840 INFO Evaluating validation feature 5/5
+2026-05-31 11:38:45,339 INFO Writing log to results/floss_smoke_test/execution.log
+2026-05-31 11:38:45,340 INFO Dataset: cityscapes
+2026-05-31 11:38:45,340 INFO Train images: 5
+2026-05-31 11:38:45,340 INFO Validation images: 5
+2026-05-31 11:38:45,340 INFO Device: cpu
+2026-05-31 11:38:45,340 INFO Ranking resolution: (512, 256)
+2026-05-31 11:38:57,592 INFO Writing log to results/floss_smoke_test/execution.log
+2026-05-31 11:38:57,592 INFO Dataset: cityscapes
+2026-05-31 11:38:57,592 INFO Train images: 5
+2026-05-31 11:38:57,592 INFO Validation images: 5
+2026-05-31 11:38:57,592 INFO Device: cpu
+2026-05-31 11:38:57,592 INFO Ranking resolution: (512, 256)
+2026-05-31 11:38:58,184 INFO HTTP Request: GET https://huggingface.co/api/datasets/yasserben/floss-features/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-31 11:38:58,708 INFO HTTP Request: GET https://huggingface.co/api/datasets/yasserben/floss-features/tree/main?expand=false&recursive=true&limit=1000&cursor=ZXlKbWFXeGxYMjVoYldVaU9pSjJhWE5wYjI1ZlptVmhkSFZ5WlhOZmRISmhhVzR2WW5KbGJXVnVYekF3TURJeU0xOHdNREF3TVRsZmJHVm1kRWx0WnpoaWFYUXVjSFFpTENKMGNtVmxYMjlwWkNJNklqVXhNak00TVdJME1UQmxPRGRrT1RjeU0yVmtaamswWm1VNU16ZzROR013TmpVeE9UWTROV1FpZlE9PToxMDAw "HTTP/1.1 200 OK"
+2026-05-31 11:38:59,062 INFO HTTP Request: GET https://huggingface.co/api/datasets/yasserben/floss-features/tree/main?expand=false&recursive=true&limit=1000&cursor=ZXlKbWFXeGxYMjVoYldVaU9pSjJhWE5wYjI1ZlptVmhkSFZ5WlhOZmRISmhhVzR2YUdGdWIzWmxjbDh3TURBd01EQmZNREk1TkRVMVgyeGxablJKYldjNFltbDBMbkIwSWl3aWRISmxaVjl2YVdRaU9pSTFNVEl6T0RGaU5ERXdaVGczWkRrM01qTmxaR1k1TkdabE9UTTRPRFJqTURZMU1UazJPRFZrSW4wPToyMDAw "HTTP/1.1 200 OK"
+2026-05-31 11:38:59,671 INFO HTTP Request: GET https://huggingface.co/api/datasets/yasserben/floss-features/tree/main?expand=false&recursive=true&limit=1000&cursor=ZXlKbWFXeGxYMjVoYldVaU9pSjJhWE5wYjI1ZlptVmhkSFZ5WlhOZmRISmhhVzR2ZEhWaWFXNW5aVzVmTURBd01ESXdYekF3TURBeE9WOXNaV1owU1cxbk9HSnBkQzV3ZENJc0luUnlaV1ZmYjJsa0lqb2lOVEV5TXpneFlqUXhNR1U0TjJRNU56SXpaV1JtT1RSbVpUa3pPRGcwWXpBMk5URTVOamcxWkNKOTozMDAw "HTTP/1.1 200 OK"
+2026-05-31 11:38:59,833 INFO Download manifest written to results/floss_smoke_test/download_manifest.json
+2026-05-31 11:38:59,834 INFO Downloading or reusing cityscapes_text_features.pt
+2026-05-31 11:39:00,083 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/cityscapes_text_features.pt "HTTP/1.1 302 Found"
+2026-05-31 11:39:00,083 WARNING Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-31 11:39:00,084 INFO Downloading or reusing vision_features_train/aachen_000000_000019_leftImg8bit.pt
+2026-05-31 11:39:00,333 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/vision_features_train/aachen_000000_000019_leftImg8bit.pt "HTTP/1.1 302 Found"
+2026-05-31 11:39:00,335 INFO Downloading or reusing vision_features_train/aachen_000001_000019_leftImg8bit.pt
+2026-05-31 11:39:00,579 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/vision_features_train/aachen_000001_000019_leftImg8bit.pt "HTTP/1.1 302 Found"
+2026-05-31 11:39:00,580 INFO Downloading or reusing vision_features_train/aachen_000002_000019_leftImg8bit.pt
+2026-05-31 11:39:00,823 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/vision_features_train/aachen_000002_000019_leftImg8bit.pt "HTTP/1.1 302 Found"
+2026-05-31 11:39:00,824 INFO Downloading or reusing vision_features_train/aachen_000003_000019_leftImg8bit.pt
+2026-05-31 11:39:01,060 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/vision_features_train/aachen_000003_000019_leftImg8bit.pt "HTTP/1.1 302 Found"
+2026-05-31 11:39:01,061 INFO Downloading or reusing vision_features_train/aachen_000004_000019_leftImg8bit.pt
+2026-05-31 11:39:01,307 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/vision_features_train/aachen_000004_000019_leftImg8bit.pt "HTTP/1.1 302 Found"
+2026-05-31 11:39:01,312 INFO Downloading or reusing vision_features_val/frankfurt_000000_000294_leftImg8bit.pt
+2026-05-31 11:39:01,552 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/vision_features_val/frankfurt_000000_000294_leftImg8bit.pt "HTTP/1.1 302 Found"
+2026-05-31 11:39:01,553 INFO Downloading or reusing vision_features_val/frankfurt_000000_000576_leftImg8bit.pt
+2026-05-31 11:39:01,810 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/vision_features_val/frankfurt_000000_000576_leftImg8bit.pt "HTTP/1.1 302 Found"
+2026-05-31 11:39:01,812 INFO Downloading or reusing vision_features_val/frankfurt_000000_001016_leftImg8bit.pt
+2026-05-31 11:39:02,043 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/vision_features_val/frankfurt_000000_001016_leftImg8bit.pt "HTTP/1.1 302 Found"
+2026-05-31 11:39:02,045 INFO Downloading or reusing vision_features_val/frankfurt_000000_001236_leftImg8bit.pt
+2026-05-31 11:39:02,283 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/vision_features_val/frankfurt_000000_001236_leftImg8bit.pt "HTTP/1.1 302 Found"
+2026-05-31 11:39:02,286 INFO Downloading or reusing vision_features_val/frankfurt_000000_001751_leftImg8bit.pt
+2026-05-31 11:39:02,523 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/vision_features_val/frankfurt_000000_001751_leftImg8bit.pt "HTTP/1.1 302 Found"
+2026-05-31 11:39:02,524 INFO Downloading or reusing gt_val/frankfurt_000000_000294_gtFine_labelTrainIds.png
+2026-05-31 11:39:02,755 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/gt_val/frankfurt_000000_000294_gtFine_labelTrainIds.png "HTTP/1.1 302 Found"
+2026-05-31 11:39:02,756 INFO Downloading or reusing gt_val/frankfurt_000000_000576_gtFine_labelTrainIds.png
+2026-05-31 11:39:03,009 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/gt_val/frankfurt_000000_000576_gtFine_labelTrainIds.png "HTTP/1.1 302 Found"
+2026-05-31 11:39:03,010 INFO Downloading or reusing gt_val/frankfurt_000000_001016_gtFine_labelTrainIds.png
+2026-05-31 11:39:03,272 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/gt_val/frankfurt_000000_001016_gtFine_labelTrainIds.png "HTTP/1.1 302 Found"
+2026-05-31 11:39:03,273 INFO Downloading or reusing gt_val/frankfurt_000000_001236_gtFine_labelTrainIds.png
+2026-05-31 11:39:03,518 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/gt_val/frankfurt_000000_001236_gtFine_labelTrainIds.png "HTTP/1.1 302 Found"
+2026-05-31 11:39:03,519 INFO Downloading or reusing gt_val/frankfurt_000000_001751_gtFine_labelTrainIds.png
+2026-05-31 11:39:03,767 INFO HTTP Request: HEAD https://huggingface.co/datasets/yasserben/floss-features/resolve/main/gt_val/frankfurt_000000_001751_gtFine_labelTrainIds.png "HTTP/1.1 302 Found"
+2026-05-31 11:39:03,856 INFO Ranking train feature 1/5
+2026-05-31 11:39:08,910 INFO Ranking train feature 2/5
+2026-05-31 11:39:14,239 INFO Ranking train feature 3/5
+2026-05-31 11:39:18,429 INFO Ranking train feature 4/5
+2026-05-31 11:39:22,890 INFO Ranking train feature 5/5
+2026-05-31 11:39:27,166 INFO Smoke rankings written to results/floss_smoke_test/rankings_smoke.json
+2026-05-31 11:39:27,167 INFO Evaluating validation feature 1/5
+2026-05-31 11:39:27,190 INFO Evaluating validation feature 2/5
+2026-05-31 11:39:27,219 INFO Evaluating validation feature 3/5
+2026-05-31 11:39:27,241 INFO Evaluating validation feature 4/5
+2026-05-31 11:39:27,267 INFO Evaluating validation feature 5/5
+2026-05-31 11:39:30,282 INFO generated new fontManager
+2026-05-31 11:39:31,952 INFO Baseline mIoU: 20.3923
+2026-05-31 11:39:31,952 INFO FLOSS mIoU: 23.3612
+2026-05-31 11:39:31,952 INFO Delta mIoU: 2.9689
+2026-05-31 11:39:31,952 INFO Metrics written to results/floss_smoke_test/metrics.json
